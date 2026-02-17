@@ -1,4 +1,4 @@
-# potatorf 1.0
+# potatorf
 Database management
 
 # Building
