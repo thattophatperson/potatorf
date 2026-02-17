@@ -38,7 +38,6 @@ SELECT name, age FROM users WHERE age > 25;
 UPDATE users SET active=false WHERE name='Alice';
 DELETE FROM users WHERE age IS NULL;
 SHOW TABLES;
-``
-
 DESCRIBE users;
-VACUUM;~
+VACUUM;
+``
