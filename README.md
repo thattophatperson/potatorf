@@ -30,7 +30,7 @@ Build command:
 
 # Examples
 
-``
+```
 CREATE TABLE users (id INT PRIMARY KEY, name TEXT NOT NULL, age INT, active BOOL);
 INSERT INTO users VALUES (1, 'Alice', 30, true);
 INSERT INTO users (id, name) VALUES (2, 'Bob');  -- age and active will be NULL
@@ -40,4 +40,4 @@ DELETE FROM users WHERE age IS NULL;
 SHOW TABLES;
 DESCRIBE users;
 VACUUM;
-``
+```
