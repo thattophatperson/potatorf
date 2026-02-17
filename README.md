@@ -3,6 +3,7 @@ Database management
 
 # Building
 To build `potatorf.c`, you only need [gcc](https://gcc.gnu.org/install/).
+
 Build command:
 `gcc -O2 -o potatorf potatorf.c`
 
@@ -20,6 +21,7 @@ Build command:
 `DESCRIBE`
 `VACUUM`
 `WHERE` (clauses with =, !=, <, >, <=, >=, IS NULL, IS NOT NULL)
+
 - Colum types:
 `INT`
 `FLOAT`
