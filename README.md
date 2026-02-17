@@ -25,3 +25,6 @@ Build command:
 `FLOAT`
 `TEXT`
 `BOOL`
+
+To create a table, here's an example:
+`CREATE TABLE test (cool INT, cool2 INT);`
