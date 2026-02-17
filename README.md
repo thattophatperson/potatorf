@@ -28,5 +28,17 @@ Build command:
 `TEXT`
 `BOOL`
 
-To create a table, here's an example:
-`CREATE TABLE test (cool INT, cool2 INT);`
+# Examples
+
+``
+CREATE TABLE users (id INT PRIMARY KEY, name TEXT NOT NULL, age INT, active BOOL);
+INSERT INTO users VALUES (1, 'Alice', 30, true);
+INSERT INTO users (id, name) VALUES (2, 'Bob');  -- age and active will be NULL
+SELECT name, age FROM users WHERE age > 25;
+UPDATE users SET active=false WHERE name='Alice';
+DELETE FROM users WHERE age IS NULL;
+SHOW TABLES;
+``
+
+DESCRIBE users;
+VACUUM;~
