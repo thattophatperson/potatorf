@@ -2,7 +2,7 @@
 Database management
 
 # Building
-To build `potatorf.c`, you only need [gcc](https://gcc.gnu.org/install/).
+To build `potatorf.c`, you only need [gcc](https://gcc.gnu.org/install/). 
 
 Build command:
 `gcc -O2 -o potatorf potatorf.c`
